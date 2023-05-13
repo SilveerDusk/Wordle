@@ -4,7 +4,7 @@ const useWordle = (solution) => {
     const [turn, setTurn] = useState(0)
     const [currentGuess, setCurrentGuess] = useState('')
     const [guesses, setGuesses] = useState([...Array(6)])
-    const [history, setHistory] = useState(['Hello', 'World'])
+    const [history, setHistory] = useState([])
     const [isCorrect, setIsCorrect] = useState(false)
 
     //format a new guess into an array of letter objects
